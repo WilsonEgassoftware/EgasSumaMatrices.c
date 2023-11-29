@@ -57,7 +57,7 @@ int main() {
     int resultado[filas][columnas];
 
     // Sumar las dos matrices
-    sumarMatrices(filas, columnas, matriz1, matriz2, resultado);
+    sumarMatrices(filas, columnas, matriz1, matriz2, resultado);//suma de matrices usando los datos presentados
 
     // Imprimir la matriz resultado
     printf("\nMatriz Resultado:\n");
