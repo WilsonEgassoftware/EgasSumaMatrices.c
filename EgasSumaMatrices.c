@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib.h>//liberia de funciones
 #include <time.h>
 
 // Función para llenar la matriz con números aleatorios entre 0 y 100
@@ -17,7 +17,7 @@ void imprimirMatriz(int filas, int columnas, int matriz[filas][columnas]) {
         for (int j = 0; j < columnas; ++j) {//Realizamos la verificacion de datos para las filas y columnas en i
             printf("%3d ", matriz[i][j]);
         }
-        printf("\n");
+        printf("\n");//salto de linea
     }
 }
 // Función para sumar dos matrices
@@ -30,7 +30,7 @@ void sumarMatrices(int filas, int columnas, int matriz1[filas][columnas], int ma
 }
 
 int main() {
-    int filas, columnas; 
+    int filas, columnas; //declaramos los datos que seran utilies en el ejercicio
     // Solicitar al usuario las dimensiones de la matriz
     printf("Ingrese la cantidad  de filas: ");
     scanf("%d", &filas);
