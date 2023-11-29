@@ -24,7 +24,7 @@ void imprimirMatriz(int filas, int columnas, int matriz[filas][columnas]) {
 void sumarMatrices(int filas, int columnas, int matriz1[filas][columnas], int matriz2[filas][columnas], int resultado[filas][columnas]) {
     for (int i = 0; i < filas; ++i) {
         for (int j = 0; j < columnas; ++j) {// Verificamos los datos en filas y comunas en j
-            resultado[i][j] = matriz1[i][j] + matriz2[i][j];
+            resultado[i][j] = matriz1[i][j] + matriz2[i][j];//realizar la suma de las matrices mediante el uso de funciones 
         }
     }
 }
@@ -61,7 +61,7 @@ int main() {
 
     // Imprimir la matriz resultado
     printf("\nMatriz Resultado:\n");
-    imprimirMatriz(filas, columnas, resultado);
+    imprimirMatriz(filas, columnas, resultado);//lectura de los datos finales
 
     return 0;
 }
